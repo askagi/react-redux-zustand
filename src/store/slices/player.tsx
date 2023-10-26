@@ -39,7 +39,7 @@ export const loadCourses = createAsyncThunk(
 
     })
 
-const playerSlice = createSlice({
+export const playerSlice = createSlice({
     name: 'player',
     initialState,
     reducers: {
